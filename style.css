@@ -1,0 +1,167 @@
+@import url("https://use.typekit.net/gtu4ggk.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"muli";
+}
+p{
+    font-size: small;
+    margin-bottom: 0;
+}
+.home{
+    height: 100vh;
+    background-image: url('./Images/bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .firstdash{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.firstdash p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1462f3;
+}
+.dash{
+    height: 2px;
+    width: 5vw;
+    border-radius: 10px;
+    background-color: #1462f3;
+    margin-right: 1rem;
+}
+.home  span{
+    color: #1462f3;
+}
+.home h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+ .home-btn,.grey-btn,.white-btn{
+   
+    font-size: small;
+    font-weight: 500;
+    color: white;
+    padding: 0.6rem 1rem;
+    transition: 10s;
+}
+.home-btn{
+    background-image: linear-gradient(to right,#559af3,#559af3,#1462f3);
+    
+}
+.grey-btn{
+    background-image: linear-gradient(to right,#9ea0af,#9ea0af,#7a7c8a);
+    
+}
+.white-btn{
+    background-image: linear-gradient(to right,#fff,#fff,#fff);
+    color: black;
+    
+}
+.home-btn:hover{
+    background-image: linear-gradient(to right,#1462f3,#1462f3,#1462f3);
+
+}
+.grey-btn:hover{
+    background-image: linear-gradient(to right ,#7a7c8a,#7a7c8a,#7a7c8a);
+
+}
+.home-btn i,.grey-btn i, .white-btn i{
+    margin-left: 1rem;
+}
+.about{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abouttext h2, .servicesheading h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abouttext{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.about-img img{
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.servicesheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services{
+    height: 100vh;
+    background-color: #F5F8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicesicon{
+    background-color: #fff;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 500;
+    color: #296ea4;
+    border-bottom: 2px solid white;
+    transition: 1s;
+}
+
+.servicesicon:hover ,.servicesicon.active{
+    border-bottom: 2px solid #1462f3;
+}
+.servicesicon img{
+    width: 20%;
+    margin-bottom: 10px;    
+}
+.tablinks{
+    cursor: pointer;
+}
+.tabcontent {
+    display: none;
+}
+.servicesdetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicedetailstext{
+    height: 50vh;
+    background-image: -webkit-linear-gradient(0deg,#24c0f1 0%,#4c9afe 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicedetailstext h5{
+    font-weight:600 ;
+}
+.servicedetailsbg{
+    height: 50vh;
+    background-image: url('./Images/department.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+  
