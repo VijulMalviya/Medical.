@@ -1,1 +1,1 @@
-# Medico
+# Medical
