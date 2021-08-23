@@ -1,0 +1,155 @@
+
+
+@media screen and (max-width:576px) {
+    
+    .nav-bar{
+        flex-direction: column;
+    }
+    .navlogo{
+
+        justify-content: space-between;
+    }
+    .navlogo img{
+        width: 8rem;
+    }
+    .navlogo h5{
+        display: initial;
+        margin: 0;
+    }
+    .navlinks{
+        display: none;
+        justify-content: center;
+    }
+    .navlinks ul{
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+    .home h1{
+        font-size: 2.5rem;
+    }
+    .about{
+        height: 140vh;
+    }
+    .servicesdetails{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .servicedetailstext {
+        padding: 1rem;
+    }
+    .services {
+        height: 180vh;  
+    }
+    .testi-img,.testi-text{
+        height: 40vh;
+    }
+    .appointmentform .formimg {
+        height: 50vh;
+    }
+    .formsec input, select, textarea {
+        padding: 1rem;
+        background-color: white;
+        border: none;
+    }
+    .appointmentform .formsec{
+        height: 100vh;
+    }
+    footer .sociallinks {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .nav-bar{
+        flex-direction: column;
+    }
+    .navlogo{
+
+        justify-content: space-between;
+    }
+    
+    .navlogo h5{
+        display: initial;
+        margin: 0;
+    }
+    .navlinks{
+        display: none;
+        justify-content: center;
+    }
+    .navlinks ul{
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+
+    .servicesdetails{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .servicedetailstext {
+        height: 30vh;
+    }
+    .servicedetailsbg{
+        height: 30vh;
+    }
+    .testi-img,.testi-text{
+        height: 50vh;
+    }
+    .appointmentform .formimg {
+        height: 50vh;
+    }
+    .formsec input, select, textarea {
+        padding: 1rem;
+        border-color: grey;
+    }
+    .appointmentform .formsec{
+        height: 50vh;
+    }
+    footer .sociallinks {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .gallery .galleriimg {
+        height: 25vh;
+    }
+  }
+
+@media screen and (min-width:992px) and (max-width:1024px) {
+    .nav-bar{
+        flex-direction: column;
+    }
+    .navlogo{
+        justify-content: space-between;
+    }
+    
+    .navlogo h5{
+        display: initial;
+        margin: 0;
+    }
+    .navlinks{
+        display: none;
+        justify-content: center;
+    }
+    .navlinks ul{
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+    .servicedetailstext {
+        height: 50vh;
+    }
+    .servicedetailsbg{
+        height: 50vh;
+    }
+    .testi-img,.testi-text{
+        height: 50vh;
+    }
+    .appointmentform .formsec , .appointmentform .formimg{
+        height: 65vh;
+    }
+   
+}

@@ -1,3 +1,13 @@
+
+  $(document).ready(function(){
+  $("#bar").click(function(){
+    alert('clicked')
+    $(".navlinks").slideToggle();
+  
+  });
+  });
+
+
 function service(evt, servicedepartment) {
     var i, tabcontent, servicesicon;
     tabcontent = document.getElementsByClassName("tabcontent");
