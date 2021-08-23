@@ -1,4 +1,6 @@
 
+  AOS.init();
+  
   $(document).ready(function(){
   $("#bar").click(function(){
     alert('clicked')

@@ -6,7 +6,12 @@
     box-sizing: border-box;
     font-family:"muli";
 }
+body{
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+}
 p{
+
     font-size: small;
     margin-bottom: 0;
 }
@@ -91,7 +96,7 @@ p{
    
     font-size: small;
     font-weight: 500;
-    color: white !important;
+    color: white ;
     padding: 0.6rem 1rem;
     transition: 10s;
 }
@@ -224,25 +229,45 @@ p{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: 1s;
 }
+.gallery .galleriimg:hover{
+  
+    transform: scale(1.1);
+    z-index: 9;
+}
+
 .gallery .g1{
-    background-image: url('./Images/g1.jpg');
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.608),rgba(0, 0, 0, 0.608) ),
+    url('./Images/g1.jpg');
 }
 .gallery .g2{
-    background-image: url('./Images/g2.jpg');
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.608),rgba(0, 0, 0, 0.608) ),
+    url('./Images/g2.jpg');
 }
 .gallery .g3{
-    background-image: url('./Images/g3.jpg');
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.608),rgba(0, 0, 0, 0.608) ),
+    url('./Images/g3.jpg');
 }
 .gallery .g4{
-    background-image: url('./Images/g4.jpg');
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.608),rgba(0, 0, 0, 0.608) ),
+    url('./Images/g4.jpg');
 }
 .gallery .g5{
-    background-image: url('./Images/g5.jpg');
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.608),rgba(0, 0, 0, 0.608) ),
+    url('./Images/g5.jpg');
 }
 .gallery .g6{
-    background-image: url('./Images/g6.jpg');
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.608),rgba(0, 0, 0, 0.608) ),
+    url('./Images/g6.jpg');
 }
+
 .testi-text{
     height: 80vh;
     background-image: -webkit-linear-gradient(0deg,#24c0f1 0%,#4c9afe 100%);
@@ -258,6 +283,11 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;   
+}
+.testi-img:hover{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.608),rgba(0, 0, 0, 0.608) ),
+    url('./Images/g1.jpg');
 }
 .testinameimg{
     display: flex;
