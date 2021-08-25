@@ -3,7 +3,7 @@
   
   $(document).ready(function(){
   $("#bar").click(function(){
-    alert('clicked')
+    // alert('clicked')
     $(".navlinks").slideToggle();
   
   });
